@@ -1,0 +1,86 @@
+* {
+ font-size: 100%;
+ font-family: Roboto;
+}
+
+.header-inner {
+  border-bottom: 4px solid #bababa;
+  margin: 20px 0 20px;
+}
+
+.logo {
+	max-width: 100%;
+	margin-top: auto;
+  	margin-bottom: auto;
+  	font-weight: 
+}
+
+.page-header {
+  text-transform: uppercase;
+  color: #2d3c49;
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.coding-logo {
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.featured-work {
+	color: #7d97ad;
+	padding-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.footer-img {
+	max-width: 100%;
+}
+
+.appify {
+	content: url('../img/appify.jpg');
+}
+
+.sunflower {
+	content: url('../img/sunflower.jpg');
+}
+
+.bokeh {
+	content: url('../img/bokeh.jpg');
+}
+
+.fig-caption {
+	font-size: 24px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 576px) {
+	.page-header {
+		margin: auto;
+		text-align: center;
+	}
+
+	.center-img {
+		text-align: center;
+	}
+
+	.appify {
+		content: url('../img/appify-small.jpg');
+	}
+
+	.sunflower {
+		content: url('../img/sunflower-small.jpg');
+	}
+
+	.bokeh {
+		content: url('../img/bokeh-small.jpg');
+	}
+}
